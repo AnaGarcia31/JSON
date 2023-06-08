@@ -1,0 +1,49 @@
+{
+    "listaCompra":{
+        "fecha":"2023-05-12T14:00:00.000Z",
+        "productos": [
+        {
+            "codigoSuper": "SUP1",
+            "codigoProducto": "PROD1",
+            "cantidad": 12
+        }
+    ]
+    },
+
+    "habituales": [
+        {
+            "codigoSuper": "SUP1",
+            "codigoProducto": "PROD1",
+            "vecesAdquirido": 1,
+             "precioMedio": 0.85
+         }
+    ],
+
+    "supermercados": [
+         {
+            "codigo": "SUP1",
+            "nombre": "Super 1",
+            "direccion": "Calle ejemplo 1",
+            "codigoPostal": "28001",
+            "geocode":["40.439194", "-3.690534"],
+            "productos": [
+                {
+                    "codigo": "PROD1",
+                    "nombre": "Leche Milk",
+                    "precio": 0.85,
+                    "unidades": "litros"
+                }
+        ],
+        "ofertas": [
+            {
+                "codigo": "OF1",
+                "codigoProducto": "PROD1",
+                "descuento": 10,
+                "vigencia": "2023-12-12T23:59:59.999Z"
+                }
+            ]
+        }
+    ]
+}
+
+
